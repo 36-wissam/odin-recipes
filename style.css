@@ -1,0 +1,28 @@
+
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    background-image: url(images/recipes-back.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    color: aliceblue;
+
+}
+
+.recipes-site a{
+    color: aliceblue;
+    font-size: 60px;
+    background-color: rgba(92, 49, 32,80%);
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+h1{
+    font-size: 150px;
+    text-shadow: 40px;
+    background-color: rgba(92, 49, 32,80%);
+    border-radius: 10px; 
+}
