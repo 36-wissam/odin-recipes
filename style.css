@@ -1,28 +1,52 @@
-
-body{
+/* Styling for the body of the Odin Recipes website */
+body {
+    background-color: bisque;
     font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 75px;
+    color: rgb(238, 136, 3);
+
+}
+
+/* Styling for the paragraphs */
+p {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* Styling for the recipe list */
+.recipes {
+    font-size: 50px;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+    button {
+        background-color: rgb(255, 84, 4);
+        font-size: 40px;
+        color: rgb(247, 247, 248);
+        border: none;
+        border-radius: 10px;
+        padding: 11px 20px;
+        cursor: pointer;
+        
+    }
+
+/* Styling for centering content */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     text-align: center;
-    background-image: url(images/recipes-back.jpg);
-    background-size: contain;
-    background-repeat: repeat;
-    color: aliceblue;
-
+    
 }
 
-.recipes-site a{
-    color: aliceblue;
-    font-size: 60px;
-    background-color: rgba(92, 49, 32,80%);
-    border-radius: 10px;
-    display: block;
-    margin-bottom: 10px;
+a{
     text-decoration: none;
-}
-
-
-h1{
-    font-size: 150px;
-    text-shadow: 40px;
-    background-color: rgba(92, 49, 32,80%);
-    border-radius: 10px; 
+    font-size: 25px
 }
